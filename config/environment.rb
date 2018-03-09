@@ -1,8 +1,7 @@
 require "bundler/setup"
 require 'yaml'
 require 'active_record'
-require 'app/showcontroller'
-
+require_all 'app'
 Bundler.require
 
 

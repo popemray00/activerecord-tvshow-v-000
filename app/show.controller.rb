@@ -1,3 +1,3 @@
 def highest_rating
-  shows.maximum('name')
+  shows.maximum(:name)
 end
